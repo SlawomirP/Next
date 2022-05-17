@@ -9,7 +9,7 @@ public class IfSwitch {
         boolean isEven = even(number);
 
         System.out.println("Is the number " + number + " even?");
-        if (isEven == true){
+        if (isEven){
             System.out.println("Yes, it is.");
         } else {
             System.out.println("No, it isn't.");
